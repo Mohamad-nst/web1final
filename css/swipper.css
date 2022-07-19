@@ -1,0 +1,503 @@
+@media only screen and (min-width: 1200px) {
+    html,
+    body {
+        position: relative;
+        height: 100%;
+    }
+    body {
+        background: #eee;
+        color: #000;
+        margin: 0;
+        padding: 0;
+    }
+    .swiper {
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        transition: all 300ms linear;
+    }
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+        position: absolute;
+    }
+    .swiper-slide> img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        filter: brightness(40%);
+    }
+    div.swiper-button-next,div.swiper-button-prev{
+        color: white;
+        position: absolute;
+        top: 50%;
+    }
+    div.swiper-pagination{
+        position: absolute;
+        color: #0099ff;
+        font-size: 24px;
+        font-family: "roboto regular";
+        bottom: 3%;
+    }
+    div.swiper-slide>div.text{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+    }
+    div.swiper-slide>div.text>h1{
+        position: absolute;
+        width: 100%;
+        height: auto;
+        text-align: center;
+        top:23% ;
+        text-align: center;
+        text-transform: uppercase;
+        color: white;
+        font-size: 56px;
+        font-family: "Roboto Thin";
+    }
+    div.swiper-slide>div.text>h1:nth-of-type(2){
+        top: 43%;
+        font-size: 56px;
+        font-family: "roboto light";
+    }
+    div.swiper-slide>div.text>h1:nth-of-type(1)>span{
+        color: #0099ff;
+        font-size: 56px;
+        font-family: "Roboto Thin";
+    }
+    div.swiper-slide>div.text>h1:nth-of-type(2)>span{
+        color: #0099ff;
+        font-size: 56px;
+        font-family: "roboto light";
+    }
+    div.swiper-slide>div.text>p{
+        position: absolute;
+        width: 60%;
+        height: auto;
+        text-align:center;
+        top: 58%;
+        line-height: 40px;
+        color: white;
+        font-family: "roboto regular";
+        font-size: 18px;
+        left:20% ;
+    }
+}
+@media only screen and (min-width: 990px) and (max-width: 1200px){
+    html,
+    body {
+        position: relative;
+        height: 100%;
+    }
+    body {
+        background: #eee;
+        color: #000;
+        margin: 0;
+        padding: 0;
+    }
+    .swiper {
+        width: 100%;
+        height:100vh;
+        position: relative;
+        transition: all 300ms linear;
+    }
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+    .swiper-slide> img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        filter: brightness(40%);
+    }
+    div.swiper-button-next,div.swiper-button-prev{
+        color: white;
+        position: absolute;
+        top:50%;
+    }
+    div.swiper-pagination{
+        position: absolute;
+        color: #0099ff;
+        bottom: 3%;
+        font-size: 24px;
+        font-family: "roboto regular";
+    }
+    div.swiper-slide>div.text{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+    }
+    div.swiper-slide>div.text>h1{
+        position: absolute;
+        width: 100%;
+        height: auto;
+        text-align: center;
+        top:23% ;
+        text-align: center;
+        text-transform: uppercase;
+        color: white;
+        font-size: 52px;
+        font-family: "Roboto Thin";
+    }
+    div.swiper-slide>div.text>h1:nth-of-type(2){
+        top: 43%;
+        font-size: 48px;
+        font-family: "roboto light";
+    }
+    div.swiper-slide>div.text>h1:nth-of-type(1)>span{
+        color: #0099ff;
+        font-size: 52px;
+        font-family: "Roboto Thin";
+    }
+    div.swiper-slide>div.text>h1:nth-of-type(2)>span{
+        color: #0099ff;
+        font-size: 52px;
+        font-family: "roboto light";
+    }
+    div.swiper-slide>div.text>p{
+        position: absolute;
+        width: 65%;
+        height: auto;
+        text-align: center;
+        top: 58%;
+        line-height: 40px;
+        color: white;
+        font-family: "roboto regular";
+        font-size: 18px;
+        left:calc(50% - 65%/2);
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 990px){
+    html,
+    body {
+        position: relative;
+        height: 100%;
+    }
+    body {
+        background: #eee;
+        color: #000;
+        margin: 0;
+        padding: 0;
+    }
+    .swiper {
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        transition: all 300ms linear;
+    }
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+    .swiper-slide> img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        filter: brightness(40%);
+    }
+    div.swiper-button-next,div.swiper-button-prev{
+        color: white;
+        position: absolute;
+        top: 50%;
+    }
+    div.swiper-pagination{
+        position: absolute;
+        color: #0099ff;
+        bottom: 3%;
+        font-size: 24px;
+        font-family: "roboto regular";
+    }
+    div.swiper-slide>div.text{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+    }
+    div.swiper-slide>div.text>h1{
+        position: absolute;
+        width: 100%;
+        height: auto;
+        text-align: center;
+        top:23% ;
+        text-align: center;
+        text-transform: uppercase;
+        color: white;
+        font-size: 48px;
+        font-family: "Roboto Thin";
+    }
+    div.swiper-slide>div.text>h1:nth-of-type(2){
+        top:43%;
+        font-size: 42px;
+        font-family: "roboto light";
+    }
+    div.swiper-slide>div.text>h1:nth-of-type(1)>span{
+        color: #0099ff;
+        font-size: 48px;
+        font-family: "Roboto Thin";
+    }
+    div.swiper-slide>div.text>h1:nth-of-type(2)>span{
+        color: #0099ff;
+        font-size: 48px;
+        font-family: "roboto light";
+    }
+    div.swiper-slide>div.text>p{
+        position: absolute;
+        width: 75%;
+        height: auto;
+        text-align: center;
+        top: 58%;
+        line-height: 40px;
+        color:white;
+        font-family: "roboto regular";
+        font-size: 16px;
+        left:calc(50% - 75%/2);
+    }
+}
+@media only screen and (min-width: 540px) and (max-width: 768px){
+    html,
+    body {
+        position: relative;
+        height: 100%;
+    }
+    body {
+        background: #eee;
+        color: #000;
+        margin: 0;
+        padding: 0;
+    }
+    .swiper {
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        transition: all 300ms linear;
+    }
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+    .swiper-slide> img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        background-color: #666666;
+        filter: brightness(40%);
+    }
+    div.swiper-button-next,div.swiper-button-prev{
+        color: white;
+        position: absolute;
+        top: 54%;
+    }
+    div.swiper-pagination{
+        position: absolute;
+        color: #0099ff;
+        bottom: 3%;
+        font-size: 24px;
+        font-family: "roboto regular";
+    }
+    div.swiper-slide>div.text{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+    }
+    div.swiper-slide>div.text>h1{
+        position: absolute;
+        width: 100%;
+        height: auto;
+        text-align: center;
+        top:23% ;
+        text-align: center;
+        text-transform: uppercase;
+        color: white;
+        font-size: 30px;
+        font-family: "Roboto Thin";
+    }
+    div.swiper-slide>div.text>h1:nth-of-type(2){
+        top: 40%;
+        font-size: 34px;
+        font-family: "roboto light";
+    }
+    div.swiper-slide>div.text>h1:nth-of-type(1)>span{
+        color: #0099ff;
+        font-size: 30px;
+        font-family: "Roboto Thin";
+    }
+    div.swiper-slide>div.text>h1:nth-of-type(2)>span{
+        color: #0099ff;
+        font-size: 34px;
+        font-family: "roboto light";
+    }
+    div.swiper-slide>div.text>p{
+        position: absolute;
+        width: 80%;
+        height: auto;
+        text-align: center;
+        top: 58%;
+        line-height: 40px;
+        color:white;
+        font-family: "roboto regular";
+        font-size: 14px;
+        left: 10%;
+    }
+}
+@media only screen and (max-width: 540px){
+    html,
+    body {
+        position: relative;
+        height: 100%;
+    }
+    body {
+        background: #eee;
+        color: #000;
+        margin: 0;
+        padding: 0;
+    }
+    .swiper {
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        transition: all 300ms linear;
+    }
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+    .swiper-slide> img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        background-color: #666666;
+        filter: brightness(40%);
+    }
+    div.swiper-button-next,div.swiper-button-prev{
+        color: white;
+        position: absolute;
+        top: 54%;
+    }
+    div.swiper-pagination{
+        position: absolute;
+        color: #0099ff;
+        bottom: 3%;
+        font-size: 24px;
+        font-family: "roboto regular";
+    }
+    div.swiper-slide>div.text{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+    }
+    div.swiper-slide>div.text>h1{
+        position: absolute;
+        width: 100%;
+        height: auto;
+        text-align: center;
+        top:23% ;
+        text-align: center;
+        text-transform: uppercase;
+        color: white;
+        font-size: 26px;
+        font-family: "Roboto Thin";
+    }
+    div.swiper-slide>div.text>h1:nth-of-type(2){
+        top: 40%;
+        font-size: 30px;
+        font-family: "roboto light";
+    }
+    div.swiper-slide>div.text>h1:nth-of-type(1)>span{
+        color: #0099ff;
+        font-size: 26px;
+        font-family: "Roboto Thin";
+    }
+    div.swiper-slide>div.text>h1:nth-of-type(2)>span{
+        color: #0099ff;
+        font-size: 30px;
+        font-family: "roboto light";
+    }
+    div.swiper-slide>div.text>p{
+        position: absolute;
+        width: 90%;
+        height: auto;
+        text-align: center;
+        top: 58%;
+        line-height: 40px;
+        color:white;
+        font-family: "roboto regular";
+        font-size: 14px;
+        left: 5%;
+    }
+}
